@@ -11,8 +11,29 @@ gap: 20px;
     background: #eee;
 }
 
+.services{
+    gap: 20px;
+}
+
+.service-card{
+    width: 250px;
+    padding: 20px;
+    background: #eee;
+}
+
 @media (max-width: 768px){
     .cards{
         flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .services{
+        flex-direction: column;
+    }   
+}
+
+@media(max-width: 768px){
+    .service-cards {
+        text-align: center;
     }
 }
