@@ -61,3 +61,17 @@ h3 {
 .box.active{
     display: block;
 }
+
+.menu{
+    display: none;
+    background: #eee;
+    padding: 10px;
+}
+
+.menu.active{
+    display: block;
+}
+
+.menu-btn{
+    font-size: 24px;
+}
